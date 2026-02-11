@@ -1,4 +1,4 @@
-# STM32 ADXL Interface
+# STM32 BMP280 Interface
 Bare-metal STM32 peripheral driver project featuring custom GPIO, I2C, and SPI implementations to interface an BMP280 Digital Pressure sensor, with real-time pressure and temeprature displayed on an SSD1306 OLED.
 
 # Overview
