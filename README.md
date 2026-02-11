@@ -40,7 +40,26 @@ Real-time sensor data output
 
 OLED display integration using SSD1306
 
-Modular and reusable driver structure
+# Folder structure
+stm32-adxl-interface
+    README.md
+    main.c
+
+    drivers
+        inc
+            stm32f4xx.h
+            gpio.h
+            i2c.h
+            spi.h
+            bmp280.h
+            ssd1306.h
+
+        src
+            gpio.c
+            i2c.c
+            spi.c
+            bmp280.c
+            ssd1306.c
 
 # Hardware Used
 
