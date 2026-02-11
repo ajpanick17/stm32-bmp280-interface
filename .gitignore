@@ -1,0 +1,35 @@
+# Build folder
+build/
+
+# Debug folder
+Debug/
+
+#startup folder
+startup/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.elf
+*.hex
+*.bin
+
+# Log files
+*.log
+
+#launch file 
+*.launch
+
+#project files 
+*.project
+*.cproject
+
+#other
+*.xml
+*.prefs
+
+
+# VS Code settings
+.vscode/
