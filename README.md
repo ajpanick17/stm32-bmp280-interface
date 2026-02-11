@@ -1,5 +1,5 @@
 # STM32 ADXL Interface
-Bare-metal STM32 peripheral driver project featuring custom GPIO, I2C, and SPI implementations to interface an ADXL accelerometer, with real-time data displayed on an SSD1306 OLED.
+Bare-metal STM32 peripheral driver project featuring custom GPIO, I2C, and SPI implementations to interface an BMP280 Digital Pressure sensor, with real-time pressure and temeprature displayed on an SSD1306 OLED.
 
 # Overview
 This project demonstrates low-level peripheral driver development on an STM32 microcontroller without using HAL or vendor libraries for core peripherals.
@@ -12,7 +12,7 @@ I2C driver
 
 SPI driver
 
-These drivers are used to communicate with an ADXL accelerometer.
+These drivers are used to communicate with an BMP280 sensor.
 Sensor data is displayed on an SSD1306 OLED display.
 
 The project focuses on:
@@ -26,19 +26,6 @@ Bus communication protocols
 Modular driver design
 
 Embedded system integration
-
-# Features
-Bare-metal GPIO driver
-
-Bare-metal I2C master driver
-
-Bare-metal SPI driver
-
-ADXL accelerometer interfacing
-
-Real-time sensor data output
-
-OLED display integration using SSD1306
 
 # Folder structure
 stm32-adxl-interface
@@ -63,13 +50,17 @@ stm32-adxl-interface
 
 # Hardware Used
 
-STM32 microcontroller (e.g., STM32F4 series)
+STM32F411RE
 
-ADXL accelerometer
+BOSCH BMP280 Digital sensor
 
 SSD1306 OLED display
 
 Breadboard and jumper wires
+
+# Demo picture
+
+![BMP280](https://github.com/user-attachments/assets/37240172-1a79-4715-acb7-dd6797e4df59)
 
 # Author
 Ajay Gopinathapanicker
